@@ -1,0 +1,252 @@
+.barlow-thin {
+  font-family: "Barlow", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.barlow-extralight {
+  font-family: "Barlow", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.barlow-light {
+  font-family: "Barlow", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.barlow-regular {
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.barlow-medium {
+  font-family: "Barlow", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.barlow-semibold {
+  font-family: "Barlow", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.barlow-bold {
+  font-family: "Barlow", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.barlow-extrabold {
+  font-family: "Barlow", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.barlow-black {
+  font-family: "Barlow", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.barlow-thin-italic {
+  font-family: "Barlow", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.barlow-extralight-italic {
+  font-family: "Barlow", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.barlow-light-italic {
+  font-family: "Barlow", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.barlow-regular-italic {
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.barlow-medium-italic {
+  font-family: "Barlow", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.barlow-semibold-italic {
+  font-family: "Barlow", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.barlow-bold-italic {
+  font-family: "Barlow", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.barlow-extrabold-italic {
+  font-family: "Barlow", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.barlow-black-italic {
+  font-family: "Barlow", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 200 to 700
+
+.oswald-<uniquifier> {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+* {
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1, h2 {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  color: rgb(207, 152, 11);
+}
+
+h1 {
+  font-size: 40px;
+  letter-spacing: 5px;
+  font-weight: bolder;
+}
+
+h4 {
+  color: white;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(255, 255, 0);
+}
+
+nav {
+  background-image: url(https://naxos-cdn01.gruppocdt.ch/cdt/stories/2023/04/18/1920x1080/2f63850b-f8d9-463c-9ca2-53908a8fae31.jpeg);
+  background-attachment: fixed;
+}
+
+.flex {
+  display: flex;
+  background-color: rgb(255, 255, 0);
+  justify-content: space-evenly;
+  align-items: center;
+  list-style-type: none;
+  font-size: 20px;
+  height: 40px;
+}
+
+.logo {
+  margin-top: 10px;
+}
+
+a {
+  color: black;
+  text-decoration-line: none;
+}
+
+.border-bottom:hover {
+  border-bottom: deepskyblue 3px dotted;
+}
+
+aside {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.section-flex {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.colore {
+  display: flex;
+  color: rgb(207, 152, 11);
+  background-color: rgba(248, 248, 52, 0.664);
+  justify-content: center;
+  height: 70px;
+  width: 100%;
+}
+
+.colore:hover {
+  background-image: linear-gradient(60deg,#ffd500ff, #fff1a5ff, #d3ffeaff, #00ffd9ff);
+}
+
+.wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 30%;
+  height: 90vh;
+  border: solid black 2px;
+  padding: 15px;
+  margin: 5px;
+}
+
+button {
+  display: block;
+  height: 35px;
+  padding: 5px;
+  background-color: rgb(255, 255, 0);
+  border: solid black 2px;
+  cursor: pointer;
+}
+
+.wrap time {
+  margin-top: 20px;
+}
+
+.wrap img {
+  max-width: 100%;
+  height: auto;
+}
+
+.wrap h2 {
+  width: 400px;
+}
+
+.article-btn{
+  margin-top: 38px;
+}
+
+.java-btn{
+  margin-top: 270px;
+}
+
+.blog-btn{
+  margin-top: -25px;
+}
+
+footer {
+  background-image: url(./Sfondo-hd-onda-bellissima.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
